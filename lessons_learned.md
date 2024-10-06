@@ -1,0 +1,5 @@
+- when the categorical variables have no order of magnitude between them, you should one-hot encode them
+  - when there is you can map the options in a seq for example: 0, 1, 3 to represent different education levels
+- pd.get_dummies() to one-hot encode them
+  - pd.get_dummies(ccc_modified, columns=['marital_status']), this is a better way to call it to drop the original column
+- 
