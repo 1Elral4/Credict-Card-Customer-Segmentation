@@ -2,4 +2,9 @@
   - when there is you can map the options in a seq for example: 0, 1, 3 to represent different education levels
 - pd.get_dummies() to one-hot encode them
   - pd.get_dummies(ccc_modified, columns=['marital_status']), this is a better way to call it to drop the original column
-- 
+- StandardScaler works with numpy arrays
+- After performing the cluster analysis you should analize the output with the original data.
+  - For numerical variables, aggregate functions and scatter plots
+    - groupby function is useful
+  - For categorical variables, percentual distribution
+    - crosstab
